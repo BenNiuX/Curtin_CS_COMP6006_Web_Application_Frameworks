@@ -1,0 +1,81 @@
+@port = {{$dotenv PORT}}
+
+###
+# [
+# {"id": 1,
+# "name": "Good_1",
+# "description": "Good_1 description",
+# "amount": 10,
+# "price": 1.1},
+# {}
+# ]
+GET http://localhost:{{port}}/shop
+
+###
+# [
+# {"id": 1,
+# "name": "Good_1",
+# "description": "Good_1 description",
+# "amount": 1,
+# "amountMax": 10,
+# "price": 1.1},
+# {}
+# ]
+GET http://localhost:{{port}}/cart
+
+###
+POST http://localhost:{{port}}/cart HTTP/1.1
+content-type: application/json
+
+[
+    {
+        "id": 2,
+        "amount": 10
+    }
+]
+
+###
+PUT http://localhost:{{port}}/cart HTTP/1.1
+content-type: application/json
+
+[
+    {
+        "id": 2,
+        "amount": 10
+    }
+]
+
+###
+DELETE http://localhost:{{port}}/cart/1
+
+###
+# [
+# [
+# {"id": 1,
+# "name": "Good_1",
+# "description": "Good_1 description",
+# "amount": 1,
+# "orderId": 1,
+# "price": 1.1,
+# "priceTotal": 1.1}
+# ]
+# ]
+GET http://localhost:{{port}}/orders
+
+###
+POST http://localhost:{{port}}/orders HTTP/1.1
+content-type: application/json
+
+[
+    {
+        "id": 3,
+        "amount": 1
+    },
+    {
+        "id": 2,
+        "amount": 2
+    }
+]
+
+###
+DELETE  http://localhost:{{port}}/orders/1

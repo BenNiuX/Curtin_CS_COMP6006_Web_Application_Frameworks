@@ -1,0 +1,49 @@
+@port = {{$dotenv PORT}}
+
+###
+GET http://localhost:{{port}}/users
+
+###
+GET http://localhost:{{port}}/users?userId=663f9e8a39d58b3e6649c254
+
+###
+GET http://localhost:{{port}}/users?userId=663f9e3b39d58b3e6649c252
+
+###
+GET http://localhost:{{port}}/users?userId=663f9ecc39d58b3e6649c256
+
+###
+GET http://localhost:{{port}}/posts
+
+###
+GET http://localhost:{{port}}/posts?userId=663f9e8a39d58b3e6649c254
+
+###
+GET http://localhost:{{port}}/posts?userId=663f9e3b39d58b3e6649c252
+
+###
+GET http://localhost:{{port}}/posts?userId=663f9ecc39d58b3e6649c256
+
+###
+POST http://localhost:{{port}}/user HTTP/1.1
+content-type: application/json
+
+{
+    "nameFirst": "Stroustrup",
+    "nameLast": "Bjarne",
+    "nameShort": "stroustrup",
+    "city": "Perth",
+    "state": "WA"
+}
+
+###
+POST http://localhost:{{port}}/posts HTTP/1.1
+content-type: application/json
+
+{
+    "userId": "663f9e3b39d58b3e6649c254",
+    "content": "test post from John - 4"
+}
+
+###
+DELETE  http://localhost:{{port}}/post/663fa18a417d095ad08599ae

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}
+<title>Student List</title>
+{% endblock %}
+{% block body %}
+<h2>Student List</h2>
+<p>Total student number: {{ total_number }}, unenrolled: {{ unenroll_number }}</p>
+<table border="1">
+    <tr>
+        {% for table_header in table_header %}
+        <th>{{ table_header }}</th>
+        {% endfor %}
+    </tr>
+    {% for row in rows %}
+    <tr>
+        {% for row_value in row %}
+        <td>{{ row_value }}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

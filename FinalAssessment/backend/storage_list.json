@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Mapo Tofu",
+    "description": "A spicy and flavorful dish featuring soft tofu cubes cooked in a spicy, oily, and savory sauce with minced pork and fermented black beans.",
+    "amount": 10,
+    "price": 11.9
+  },
+  {
+    "id": 2,
+    "name": "Kung Pao Chicken",
+    "description": "Stir-fried chicken with peanuts, vegetables, and chili peppers in a spicy and tangy sauce.",
+    "amount": 10,
+    "price": 13.8
+  },
+  {
+    "id": 3,
+    "name": "Sichuan Hot Pot",
+    "description": "A communal cooking pot filled with a spicy and numbing broth, where diners cook a variety of ingredients like thinly sliced meat, vegetables, and noodles.",
+    "amount": 10,
+    "price": 58.8
+  },
+  {
+    "id": 4,
+    "name": "Shui Zhu Yu",
+    "description": "A spicy fish dish featuring tender fish fillets poached in a fiery red chili oil broth with Sichuan peppercorns and vegetables.",
+    "amount": 10,
+    "price": 15.9
+  },
+  {
+    "id": 5,
+    "name": "Dan Dan Noodles",
+    "description": "Noodles served in a spicy, savory sauce made with chili oil, Sichuan peppercorns, minced pork, and preserved vegetables, garnished with peanuts and scallions.",
+    "amount": 10,
+    "price": 9.9
+  },
+  {
+    "id": 6,
+    "name": "Peking Duck",
+    "description": "A famous dish consisting of roasted duck with crispy skin, served with thin pancakes, hoisin sauce, and scallions.",
+    "amount": 10,
+    "price": 39.9
+  },
+  {
+    "id": 7,
+    "name": "Zhajiangmian",
+    "description": "Noodles topped with a savory sauce made from ground pork or beef, fermented soybean paste, and fresh vegetables.",
+    "amount": 10,
+    "price": 10.9
+  },
+  {
+    "id": 8,
+    "name": "Jing Jiang Rou Si",
+    "description": "Shredded pork stir-fried with a sweet bean sauce and julienne cucumbers, carrots, and other vegetables.",
+    "amount": 10,
+    "price": 16.9
+  },
+  {
+    "id": 9,
+    "name": "Douzhi",
+    "description": "A fermented mung bean soup with a strong and unique flavor, often served with deep-fried dough sticks (youtiao).",
+    "amount": 10,
+    "price": 6.8
+  },
+  {
+    "id": 10,
+    "name": "Chaogan",
+    "description": "Stir-fried pig liver with green peppers, onions, and bean sprouts, seasoned with soy sauce and other spices.",
+    "amount": 10,
+    "price": 16.8
+  },
+  {
+    "id": 11,
+    "name": "Xiaolongbao",
+    "description": "Steamed soup dumplings filled with pork and a savory broth, a signature dish of Shanghai cuisine.",
+    "amount": 10,
+    "price": 8.8
+  },
+  {
+    "id": 12,
+    "name": "Shengjianbao",
+    "description": "Pan-fried pork buns with a crispy bottom and juicy filling, often served with a flavorful dipping sauce.",
+    "amount": 10,
+    "price": 9.9
+  },
+  {
+    "id": 13,
+    "name": "Hong Shao Rou",
+    "description": "Braised pork belly cooked in soy sauce, sugar, and spices until tender and flavorful.",
+    "amount": 10,
+    "price": 18.8
+  },
+  {
+    "id": 14,
+    "name": "Shanghai Fried Noodles",
+    "description": "Stir-fried noodles with vegetables, pork, and a savory sauce, commonly found in Shanghai's local eateries.",
+    "amount": 10,
+    "price": 10.6
+  },
+  {
+    "id": 15,
+    "name": "Lion's Head Meatballs",
+    "description": "Large pork meatballs cooked with cabbage and other ingredients in a savory sauce, named for their resemblance to lion heads.",
+    "amount": 10,
+    "price": 18
+  },
+  {
+    "id": 16,
+    "name": "Beef Noodle Soup",
+    "description": "A hearty soup featuring tender beef, noodles, and vegetables in a rich, flavorful broth, often spiced with soy sauce, garlic, and spices.",
+    "amount": 10,
+    "price": 14.9
+  },
+  {
+    "id": 17,
+    "name": "Lu Rou Fan",
+    "description": "Braised pork belly served over steamed rice, often topped with pickled vegetables and a boiled egg.",
+    "amount": 10,
+    "price": 15.8
+  },
+  {
+    "id": 18,
+    "name": "Gua Bao",
+    "description": "Steamed buns filled with braised pork belly, pickled mustard greens, and ground peanuts, creating a flavorful and satisfying snack.",
+    "amount": 10,
+    "price": 11
+  },
+  {
+    "id": 19,
+    "name": "Oyster Omelette",
+    "description": "A savory omelette made with fresh oysters, eggs, and a starchy batter, pan-fried until crispy and golden brown.",
+    "amount": 10,
+    "price": 10
+  },
+  {
+    "id": 20,
+    "name": "Stinky Tofu",
+    "description": "Fermented tofu with a strong odor, deep-fried until crispy and served with pickled cabbage and chili sauce, beloved by many for its unique flavor.",
+    "amount": 10,
+    "price": 8.8
+  }
+]

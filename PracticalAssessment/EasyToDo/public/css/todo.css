@@ -1,0 +1,64 @@
+.addTaskBtn {
+  background-color: green;
+  border: 2px solid green;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 25px;
+  margin: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  box-shadow: 0 3px #999;
+}
+
+.addTaskBtn:hover {
+  background-color: darkgreen;
+}
+
+.addTaskBtn:active {
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}
+
+.addTaskInput {
+  padding: 10px;
+  margin: 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cust_ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cust_ul li:hover {
+  background-color: #ccc;
+}
+
+.li_primary {
+  font-size: 24px;
+}
+
+.li_secondary {
+  font-size: 18px;
+  color: gray;
+}
+
+.delete-todo {
+  font-size: 48px;
+  color: red;
+  float: right;
+}
+
+a:link {
+  text-decoration: none;
+}
